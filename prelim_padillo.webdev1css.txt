@@ -1,0 +1,90 @@
+body
+{
+	background-color: powderblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* GREEN BACKGROUND */
+#bg
+{
+	display: flex;
+	background-color: #00a94f;
+	width: 450px;
+	height: 620px;
+	padding: 15px;
+}
+
+
+/* FIRST COLUMN */
+#column1
+{
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* SECOND COLUMN */
+#column2
+{
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* PHOTO 1 - TALL LEFT PHOTO */
+#photo1
+{
+	width: 100px;
+	height: 260px;
+	margin: 5px;
+
+	background-image: url("miming6.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+/* PHOTO 2 */
+#photo2
+{
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+
+	background-image: url("miming3.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+/* PHOTO 3 */
+#photo3
+{
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+
+	background-image: url("miming4.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+/* PHOTO 4 */
+#photo4
+{
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+
+	background-image: url("miming.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}

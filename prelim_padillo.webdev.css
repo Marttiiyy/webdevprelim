@@ -1,0 +1,47 @@
+body{
+	background-color: powderblue;
+}
+
+#column1
+display:flex;
+flex-direction:row;
+
+
+#box1{
+width:250px;
+height:400px;
+margin:10px;
+background-color:green;
+}
+
+photo1{
+width:100px;
+height:240px;
+background-image: url("miming6.jpg");
+background-repeat: norepeat;
+background-position-x: 75%;
+background-position-y: 75%;
+background-size: 120px 120px;
+}
+
+
+
+#box2{
+width:250px;
+height:100px;
+margin:10px;
+background-color:blue;
+display: flex;
+flex-direction:row;
+}
+
+#box3{
+width:250px;
+height:100px;
+margin:10px;
+background-color:red;
+}
+
+<div id='column1'>
+      			<div id='box1'></div>
+			<div id='box2'>
